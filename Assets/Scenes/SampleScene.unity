@@ -9319,9 +9319,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 359df02147f234f45a514061f4b790a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionText: 'Second Principle
-
-'
+  interactionText: Ernest H. Anderson served as the second principal of Prairie View
+    Normal School from 1879 to 1885, expanding enrollment and curriculum. He was
+    succeeded by his brother, Laurine C. Anderson, who led until 1897 and founded
+    the Colored Teachers Association of Texas. Together, their leadership helped
+    shape the early growth of the school and advance education for African American
+    students in Texas
 --- !u!1 &277825143
 GameObject:
   m_ObjectHideFlags: 0
@@ -20291,9 +20294,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 359df02147f234f45a514061f4b790a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionText: 'Third Principle
-
-'
+  interactionText: "Laurine C. Anderson (1853\u20131938), a Fisk University graduate
+    and former Tuskegee teacher, became Prairie View\u2019s principal in 1885 after
+    assisting his brother, Ernest. He co-founded the Colored Teachers State Association
+    of Texas and led efforts for equal pay, desegregation, and educational advancement
+    for Black Texans. His leadership helped shape Prairie View's early development
+    and mission."
 --- !u!1 &573306561
 GameObject:
   m_ObjectHideFlags: 0
@@ -38078,15 +38084,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.74509805}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 9120407cf8b8f6e4f91f7f1e8fa4396f, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -38102,7 +38108,7 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1159325914}
-  m_CullTransparentMesh: 1
+  m_CullTransparentMesh: 0
 --- !u!1 &1162176246
 GameObject:
   m_ObjectHideFlags: 0
@@ -41128,6 +41134,7 @@ GameObject:
   - component: {fileID: 1226033068}
   - component: {fileID: 1226033067}
   - component: {fileID: 1226033066}
+  - component: {fileID: 1226033069}
   m_Layer: 0
   m_Name: Principle (3)
   m_TagString: Untagged
@@ -41222,6 +41229,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1226033064}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1226033069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226033064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 359df02147f234f45a514061f4b790a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionText: "Edward L. Blackshear (1862\u20131919), born into slavery, became
+    the fourth principal of Prairie View from 1897 to 1915. A Tabor College graduate,
+    he expanded the school\u2019s curriculum and championed higher education for
+    African Americans. After his tenure, he remained active in education and agriculture.
+    Prairie View\u2019s football stadium, Blackshear Field, honors his legacy."
 --- !u!1 &1228251099
 GameObject:
   m_ObjectHideFlags: 0
@@ -54698,6 +54722,7 @@ GameObject:
   - component: {fileID: 1555514140}
   - component: {fileID: 1555514139}
   - component: {fileID: 1555514138}
+  - component: {fileID: 1555514141}
   m_Layer: 0
   m_Name: Principle (8)
   m_TagString: Untagged
@@ -54792,6 +54817,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1555514136}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1555514141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1555514136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 359df02147f234f45a514061f4b790a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionText: "Dr. John G. Osborne (1872\u20131940), a medical doctor, served
+    as Prairie View\u2019s sixth principal from 1918 to 1925. He introduced a four-year
+    senior college program and oversaw major campus expansion, including six new
+    buildings. Osborne also helped found the Southwestern Athletic Conference (SWAC),
+    shaping both academics and athletics at the university."
 --- !u!1 &1555538332
 GameObject:
   m_ObjectHideFlags: 0
@@ -55812,10 +55854,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1159325915}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -205, y: 106}
-  m_SizeDelta: {x: 200, y: -238}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -117, y: 56}
+  m_SizeDelta: {x: -600, y: -238}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1583864821
 MonoBehaviour:
@@ -55837,9 +55879,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '
-
-'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 14b4c3d1f99060d4faabb39908706bb1, type: 2}
   m_sharedMaterial: {fileID: -2674221763810685086, guid: 14b4c3d1f99060d4faabb39908706bb1, type: 2}
@@ -55866,8 +55906,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 15
-  m_fontSizeBase: 15
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -67198,7 +67238,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 500fe810f3f461345b4bd5a852f8f5c1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0db1ee3819727144981193f099013f34, type: 3}
   m_Color: {r: 0.84705883, g: 0.8627451, b: 0.8666667, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -67218,7 +67258,7 @@ Transform:
   m_GameObject: {fileID: 1919513522}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 18.6, y: 4.22, z: 1.24}
+  m_LocalPosition: {x: 18.6, y: 4.22, z: 1.03}
   m_LocalScale: {x: 0.9800882, y: 0.9800882, z: 0.9800882}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -70371,6 +70411,7 @@ GameObject:
   - component: {fileID: 1990217632}
   - component: {fileID: 1990217631}
   - component: {fileID: 1990217630}
+  - component: {fileID: 1990217633}
   m_Layer: 0
   m_Name: Principle (6)
   m_TagString: Untagged
@@ -70466,6 +70507,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1990217628}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1990217633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990217628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 359df02147f234f45a514061f4b790a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionText: "Dr. E.B. Evans (1894\u20131976) served from 1947 to 1966 as Prairie
+    View\u2019s eighth leader and first president. Under his leadership, the school\u2019s
+    name and administrative structure were elevated, and major campus buildings like
+    the Animal Industries Building and Memorial Student Center were constructed,
+    marking a period of historic growth."
 --- !u!1 &1997903427
 GameObject:
   m_ObjectHideFlags: 0
@@ -70795,6 +70853,7 @@ GameObject:
   - component: {fileID: 2004838965}
   - component: {fileID: 2004838964}
   - component: {fileID: 2004838963}
+  - component: {fileID: 2004838966}
   m_Layer: 0
   m_Name: Principle (7)
   m_TagString: Untagged
@@ -70889,6 +70948,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2004838961}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2004838966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2004838961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 359df02147f234f45a514061f4b790a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionText: "W.R. Banks (1881\u20131969) led Prairie View from 1926 to 1947,
+    overseeing major campus growth and academic expansion. He introduced graduate
+    programs, new departments, and over 60 faculty cottages, while advocating for
+    Black higher education nationally. The W.R. Banks Library, built in 1945, honors
+    his lasting impact."
 --- !u!1 &2005006668
 GameObject:
   m_ObjectHideFlags: 0
@@ -74949,6 +75025,7 @@ GameObject:
   - component: {fileID: 2101700276}
   - component: {fileID: 2101700275}
   - component: {fileID: 2101700274}
+  - component: {fileID: 2101700277}
   m_Layer: 0
   m_Name: Principle (5)
   m_TagString: Untagged
@@ -75043,6 +75120,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2101700272}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2101700277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101700272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 359df02147f234f45a514061f4b790a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionText: "Isaiah M. Terrell (1861\u20131931) served as Prairie View\u2019s
+    fifth principal from 1915 to 1918 during World War I. His tenure brought major
+    campus expansion, including new buildings, the first ROTC program, and the launch
+    of the Cooperative Extension Service, marking a period of significant growth
+    and innovation."
 --- !u!1 &2104680397
 GameObject:
   m_ObjectHideFlags: 0
